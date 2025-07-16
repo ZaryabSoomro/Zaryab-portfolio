@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="qTVYtZ3CbHcFkz0cCBVgX9XSBRreYJts9tzAQoA2dww" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Zaryab Soomro, Web Developer, HTML, CSS, Java, Portfolio, Rising FC, Futsal Team, Software Engineer, Web Design, UI/UX, Coding Projects, Login System">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Zaryab Soomro - Web Developer">
+    <meta property="og:description" content="A passionate web developer skilled in HTML, CSS, and Java. Check out my portfolio!">
+    <meta property="og:image" content="https://yourwebsite.com/images/your-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="description" content="I'm Zaryab Soomro, an aspiring web developer skilled in HTML, CSS, and Java. Explore my portfolio to see my projects and connect with me."> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="icon" type="image/png" href="images/Z (2).png">
+    <title>aryab Soomro</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/A_black_image.JPG" alt="zaryab text" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Skills</a></li>
+                    <li><a href="#portfolio">My work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                <p>Aspiring Web Developer</p>
+                <h1>Hi, I'm <span>Zaryab </span>Soomro</h1>
+                <div align="left">I am studying <b id="typewriter" style="font-weight: bold;color: #ff004f;"></b></div>
+            </div>       
+        </div>
+    </div>
+    <!-----------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/462956444_2744617479044498_7661027115493072623_n.jpg" alt="zaryab soomro">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Hello! I'm Zaryab, an aspiring developer with a passion for building clean, efficient, and user-friendly web applications. I specialize in HTML, CSS, and Java, constantly learning and improving my skills to create seamless digital experiences. I love solving problems through code and exploring new technologies to stay ahead in the ever-evolving world of development. My goal is to develop innovative and impactful projects that enhance user experiences.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <div class="skills">
+                            <div class="skill">
+                                <p>HTML</p>
+                                <div class="progress">
+                                    <div class="progress-bar html"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>CSS</p>
+                                <div class="progress">
+                                    <div class="progress-bar css"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>Java</p>
+                                <div class="progress">
+                                    <div class="progress-bar java"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li>none</li>
+                        </ul>     
+                    </div>        
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Matric from The Cowasjee School</li>
+                            <li><span>2024</span><br>Intermediate from Johor Degree College</li>
+                            <li><span>2025-Onwards</span><br>Studying in APTECH to become software engineer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------my work----------------> 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/rising-fc.web.app_.png" alt="Rising fc website">
+                <div class="layer">
+                    <h3>Futsal Team Website</h3>
+                    <p>Experience the passion of futsal with our dynamic team! Stay updated with match fixtures, player stats, and the latest news. Join us as we compete, grow, and bring the thrill of the game to life. ⚽🔥</p>
+                    <a href="https://rising-fc.web.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project 2 photo.png" alt="zaryab soomro portfolio">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>This is a portfolio website which i made that cover's every aspects of a portfolio/resume.</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img style="height: 100%;" src="images/beautyofbeaches.PNG" alt="login system made by zaryab">
+                <div class="layer">
+                    <h3>beauty of beaches</h3>
+                    <p>Explore this website I designed to highlight the stunning beauty of beaches worldwide.</p>
+                    <a href="https://beautyof-beaches.web.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn" >See more</a>
+    </div>
+</div>   
+<!-------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shotybomb1@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+923364384340</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/zaryab.soomro.9"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mzaryabsoomro/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/Zarayb1"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/zaryab-soomro-250b20342/"><i class="fa-brands fa-linkedin"></i></a> 
+                    <a href="https://wa.me/923364384340"><i class="fa-brands fa-whatsapp"></i></a>                   
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Zaryab</p>
+    </div>
+</div>
+<button id="backToTop"><i class="fa-regular fa-circle-up"></i></button>
+
+    <script src="script.min.js"></script>
+</body>
+</html>
